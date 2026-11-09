@@ -1,0 +1,58 @@
+# --- Repoya gönderilmeyecek proje dosyaları ---
+# Dokümanlar (yerelde tutulur)
+docs/
+
+# Docker ve dağıtım dosyaları
+Dockerfile
+Dockerfile.*
+*.Dockerfile
+.dockerignore
+docker-compose*.yml
+docker-compose*.yaml
+compose*.yml
+compose*.yaml
+
+# Ortam değişkenleri ve gizli bilgiler
+.env
+.env.*
+*.pfx
+*.pem
+*.key
+secrets/
+
+# --- .NET ---
+bin/
+obj/
+*.user
+*.suo
+*.rsuser
+*.userprefs
+TestResults/
+[Dd]ebug/
+[Rr]elease/
+*.nupkg
+artifacts/
+appsettings.*.local.json
+
+# --- Angular / Node ---
+node_modules/
+dist/
+.angular/
+.nx/
+coverage/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# --- IDE / işletim sistemi ---
+.vs/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Loglar ---
+*.log
+logs/
